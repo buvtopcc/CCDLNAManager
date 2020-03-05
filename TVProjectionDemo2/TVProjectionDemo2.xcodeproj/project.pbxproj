@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A60296D240CEDD600C7237A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A60296C240CEDD600C7237A /* AppDelegate.m */; };
+		7A602970240CEDD600C7237A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A60296F240CEDD600C7237A /* SceneDelegate.m */; };
+		7A602973240CEDD600C7237A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A602972240CEDD600C7237A /* ViewController.m */; };
+		7A602976240CEDD600C7237A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A602974240CEDD600C7237A /* Main.storyboard */; };
+		7A602978240CEDD800C7237A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A602977240CEDD800C7237A /* Assets.xcassets */; };
+		7A60297B240CEDD800C7237A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A602979240CEDD800C7237A /* LaunchScreen.storyboard */; };
+		7A60297E240CEDD800C7237A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A60297D240CEDD800C7237A /* main.m */; };
+		7A6029A0240CF03700C7237A /* DLNAManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A602985240CF03600C7237A /* DLNAManager.m */; };
+		7A6029A1240CF03700C7237A /* CCUPnPDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A602987240CF03600C7237A /* CCUPnPDevice.m */; };
+		7A6029A2240CF03700C7237A /* CCUPnPTransportInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A60298A240CF03600C7237A /* CCUPnPTransportInfo.m */; };
+		7A6029A3240CF03700C7237A /* CCUPnPAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A60298B240CF03600C7237A /* CCUPnPAction.m */; };
+		7A6029A4240CF03700C7237A /* NSString+UPnP.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A602991240CF03600C7237A /* NSString+UPnP.m */; };
+		7A6029A5240CF03700C7237A /* CCUPnPServiceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A602993240CF03600C7237A /* CCUPnPServiceInfo.m */; };
+		7A6029A6240CF03700C7237A /* CCUPnPRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A602994240CF03600C7237A /* CCUPnPRender.m */; };
+		7A6029A7240CF03700C7237A /* CCUPnPPositionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A602995240CF03600C7237A /* CCUPnPPositionInfo.m */; };
+		7A6029A8240CF03700C7237A /* CCUPnPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A602996240CF03600C7237A /* CCUPnPServer.m */; };
+		7A6029A9240CF03700C7237A /* CCDLNADeviceSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A60299A240CF03700C7237A /* CCDLNADeviceSearchView.m */; };
+		7A6029AA240CF03700C7237A /* CCDLNADeviceSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A60299B240CF03700C7237A /* CCDLNADeviceSearchView.xib */; };
+		7A6029AF240CF05B00C7237A /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6029AE240CF05B00C7237A /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7A6029B1240CF4F400C7237A /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6029B0240CF4F400C7237A /* libxml2.tbd */; };
+		7A6029B3240CF50500C7237A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6029B2240CF50500C7237A /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A602968240CEDD600C7237A /* TVProjectionDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVProjectionDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A60296B240CEDD600C7237A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A60296C240CEDD600C7237A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A60296E240CEDD600C7237A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7A60296F240CEDD600C7237A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7A602971240CEDD600C7237A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7A602972240CEDD600C7237A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A602975240CEDD600C7237A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A602977240CEDD800C7237A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A60297A240CEDD800C7237A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A60297C240CEDD800C7237A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A60297D240CEDD800C7237A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A602985240CF03600C7237A /* DLNAManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLNAManager.m; sourceTree = "<group>"; };
+		7A602987240CF03600C7237A /* CCUPnPDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUPnPDevice.m; sourceTree = "<group>"; };
+		7A602988240CF03600C7237A /* CCUPnPServiceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUPnPServiceInfo.h; sourceTree = "<group>"; };
+		7A602989240CF03600C7237A /* NSString+UPnP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UPnP.h"; sourceTree = "<group>"; };
+		7A60298A240CF03600C7237A /* CCUPnPTransportInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUPnPTransportInfo.m; sourceTree = "<group>"; };
+		7A60298B240CF03600C7237A /* CCUPnPAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUPnPAction.m; sourceTree = "<group>"; };
+		7A60298C240CF03600C7237A /* CCUPnPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUPnPServer.h; sourceTree = "<group>"; };
+		7A60298D240CF03600C7237A /* CCUPnPPositionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUPnPPositionInfo.h; sourceTree = "<group>"; };
+		7A60298E240CF03600C7237A /* CCUPnPRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUPnPRender.h; sourceTree = "<group>"; };
+		7A60298F240CF03600C7237A /* CCUPnPDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUPnPDevice.h; sourceTree = "<group>"; };
+		7A602990240CF03600C7237A /* CCUPnPDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUPnPDefine.h; sourceTree = "<group>"; };
+		7A602991240CF03600C7237A /* NSString+UPnP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UPnP.m"; sourceTree = "<group>"; };
+		7A602992240CF03600C7237A /* CCUPnPTransportInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUPnPTransportInfo.h; sourceTree = "<group>"; };
+		7A602993240CF03600C7237A /* CCUPnPServiceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUPnPServiceInfo.m; sourceTree = "<group>"; };
+		7A602994240CF03600C7237A /* CCUPnPRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUPnPRender.m; sourceTree = "<group>"; };
+		7A602995240CF03600C7237A /* CCUPnPPositionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUPnPPositionInfo.m; sourceTree = "<group>"; };
+		7A602996240CF03600C7237A /* CCUPnPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUPnPServer.m; sourceTree = "<group>"; };
+		7A602997240CF03600C7237A /* CCUPnPAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUPnPAction.h; sourceTree = "<group>"; };
+		7A602998240CF03600C7237A /* DLNAManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLNAManager.h; sourceTree = "<group>"; };
+		7A60299A240CF03700C7237A /* CCDLNADeviceSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDLNADeviceSearchView.m; sourceTree = "<group>"; };
+		7A60299B240CF03700C7237A /* CCDLNADeviceSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCDLNADeviceSearchView.xib; sourceTree = "<group>"; };
+		7A60299C240CF03700C7237A /* CCDLNADeviceSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDLNADeviceSearchView.h; sourceTree = "<group>"; };
+		7A6029AD240CF05B00C7237A /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		7A6029AE240CF05B00C7237A /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		7A6029B0240CF4F400C7237A /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		7A6029B2240CF50500C7237A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A602965240CEDD600C7237A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6029B3240CF50500C7237A /* CoreGraphics.framework in Frameworks */,
+				7A6029B1240CF4F400C7237A /* libxml2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F04B604827A29BFAD783478 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7A60295F240CEDD600C7237A = {
+			isa = PBXGroup;
+			children = (
+				7A60296A240CEDD600C7237A /* TVProjectionDemo2 */,
+				7A602969240CEDD600C7237A /* Products */,
+				0F04B604827A29BFAD783478 /* Pods */,
+				C02F96E7C25B1A2F71CD6FEE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A602969240CEDD600C7237A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A602968240CEDD600C7237A /* TVProjectionDemo2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A60296A240CEDD600C7237A /* TVProjectionDemo2 */ = {
+			isa = PBXGroup;
+			children = (
+				7A6029AC240CF05B00C7237A /* GDataXMLNode */,
+				7A602984240CF03600C7237A /* DLNA */,
+				7A602999240CF03700C7237A /* View */,
+				7A60296B240CEDD600C7237A /* AppDelegate.h */,
+				7A60296C240CEDD600C7237A /* AppDelegate.m */,
+				7A60296E240CEDD600C7237A /* SceneDelegate.h */,
+				7A60296F240CEDD600C7237A /* SceneDelegate.m */,
+				7A602971240CEDD600C7237A /* ViewController.h */,
+				7A602972240CEDD600C7237A /* ViewController.m */,
+				7A602974240CEDD600C7237A /* Main.storyboard */,
+				7A602977240CEDD800C7237A /* Assets.xcassets */,
+				7A602979240CEDD800C7237A /* LaunchScreen.storyboard */,
+				7A60297C240CEDD800C7237A /* Info.plist */,
+				7A60297D240CEDD800C7237A /* main.m */,
+			);
+			path = TVProjectionDemo2;
+			sourceTree = "<group>";
+		};
+		7A602984240CF03600C7237A /* DLNA */ = {
+			isa = PBXGroup;
+			children = (
+				7A602985240CF03600C7237A /* DLNAManager.m */,
+				7A602986240CF03600C7237A /* UPnP */,
+				7A602998240CF03600C7237A /* DLNAManager.h */,
+			);
+			path = DLNA;
+			sourceTree = "<group>";
+		};
+		7A602986240CF03600C7237A /* UPnP */ = {
+			isa = PBXGroup;
+			children = (
+				7A602987240CF03600C7237A /* CCUPnPDevice.m */,
+				7A602988240CF03600C7237A /* CCUPnPServiceInfo.h */,
+				7A602989240CF03600C7237A /* NSString+UPnP.h */,
+				7A60298A240CF03600C7237A /* CCUPnPTransportInfo.m */,
+				7A60298B240CF03600C7237A /* CCUPnPAction.m */,
+				7A60298C240CF03600C7237A /* CCUPnPServer.h */,
+				7A60298D240CF03600C7237A /* CCUPnPPositionInfo.h */,
+				7A60298E240CF03600C7237A /* CCUPnPRender.h */,
+				7A60298F240CF03600C7237A /* CCUPnPDevice.h */,
+				7A602990240CF03600C7237A /* CCUPnPDefine.h */,
+				7A602991240CF03600C7237A /* NSString+UPnP.m */,
+				7A602992240CF03600C7237A /* CCUPnPTransportInfo.h */,
+				7A602993240CF03600C7237A /* CCUPnPServiceInfo.m */,
+				7A602994240CF03600C7237A /* CCUPnPRender.m */,
+				7A602995240CF03600C7237A /* CCUPnPPositionInfo.m */,
+				7A602996240CF03600C7237A /* CCUPnPServer.m */,
+				7A602997240CF03600C7237A /* CCUPnPAction.h */,
+			);
+			path = UPnP;
+			sourceTree = "<group>";
+		};
+		7A602999240CF03700C7237A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A60299A240CF03700C7237A /* CCDLNADeviceSearchView.m */,
+				7A60299B240CF03700C7237A /* CCDLNADeviceSearchView.xib */,
+				7A60299C240CF03700C7237A /* CCDLNADeviceSearchView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A6029AC240CF05B00C7237A /* GDataXMLNode */ = {
+			isa = PBXGroup;
+			children = (
+				7A6029AD240CF05B00C7237A /* GDataXMLNode.h */,
+				7A6029AE240CF05B00C7237A /* GDataXMLNode.m */,
+			);
+			path = GDataXMLNode;
+			sourceTree = "<group>";
+		};
+		C02F96E7C25B1A2F71CD6FEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A6029B2240CF50500C7237A /* CoreGraphics.framework */,
+				7A6029B0240CF4F400C7237A /* libxml2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A602967240CEDD600C7237A /* TVProjectionDemo2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A602981240CEDD800C7237A /* Build configuration list for PBXNativeTarget "TVProjectionDemo2" */;
+			buildPhases = (
+				7A602964240CEDD600C7237A /* Sources */,
+				7A602965240CEDD600C7237A /* Frameworks */,
+				7A602966240CEDD600C7237A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVProjectionDemo2;
+			productName = TVProjectionDemo2;
+			productReference = 7A602968240CEDD600C7237A /* TVProjectionDemo2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A602960240CEDD600C7237A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = hustcc;
+				TargetAttributes = {
+					7A602967240CEDD600C7237A = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 7A602963240CEDD600C7237A /* Build configuration list for PBXProject "TVProjectionDemo2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A60295F240CEDD600C7237A;
+			productRefGroup = 7A602969240CEDD600C7237A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A602967240CEDD600C7237A /* TVProjectionDemo2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A602966240CEDD600C7237A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A60297B240CEDD800C7237A /* LaunchScreen.storyboard in Resources */,
+				7A6029AA240CF03700C7237A /* CCDLNADeviceSearchView.xib in Resources */,
+				7A602978240CEDD800C7237A /* Assets.xcassets in Resources */,
+				7A602976240CEDD600C7237A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A602964240CEDD600C7237A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6029A8240CF03700C7237A /* CCUPnPServer.m in Sources */,
+				7A6029A3240CF03700C7237A /* CCUPnPAction.m in Sources */,
+				7A6029AF240CF05B00C7237A /* GDataXMLNode.m in Sources */,
+				7A6029A7240CF03700C7237A /* CCUPnPPositionInfo.m in Sources */,
+				7A6029A9240CF03700C7237A /* CCDLNADeviceSearchView.m in Sources */,
+				7A6029A0240CF03700C7237A /* DLNAManager.m in Sources */,
+				7A6029A5240CF03700C7237A /* CCUPnPServiceInfo.m in Sources */,
+				7A6029A6240CF03700C7237A /* CCUPnPRender.m in Sources */,
+				7A6029A2240CF03700C7237A /* CCUPnPTransportInfo.m in Sources */,
+				7A602973240CEDD600C7237A /* ViewController.m in Sources */,
+				7A6029A4240CF03700C7237A /* NSString+UPnP.m in Sources */,
+				7A60296D240CEDD600C7237A /* AppDelegate.m in Sources */,
+				7A60297E240CEDD800C7237A /* main.m in Sources */,
+				7A6029A1240CF03700C7237A /* CCUPnPDevice.m in Sources */,
+				7A602970240CEDD600C7237A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A602974240CEDD600C7237A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A602975240CEDD600C7237A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A602979240CEDD800C7237A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A60297A240CEDD800C7237A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A60297F240CEDD800C7237A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A602980240CEDD800C7237A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A602982240CEDD800C7237A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/DZNEmptyDataSet\"",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = TVProjectionDemo2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"DZNEmptyDataSet\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"LookinServer\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-lxml2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hustcc.buvtopcc.TVProjectionDemo2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A602983240CEDD800C7237A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/DZNEmptyDataSet\"",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = TVProjectionDemo2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"DZNEmptyDataSet\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"LookinServer\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-lxml2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hustcc.buvtopcc.TVProjectionDemo2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A602963240CEDD600C7237A /* Build configuration list for PBXProject "TVProjectionDemo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A60297F240CEDD800C7237A /* Debug */,
+				7A602980240CEDD800C7237A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A602981240CEDD800C7237A /* Build configuration list for PBXNativeTarget "TVProjectionDemo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A602982240CEDD800C7237A /* Debug */,
+				7A602983240CEDD800C7237A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A602960240CEDD600C7237A /* Project object */;
+}

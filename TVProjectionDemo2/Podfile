@@ -1,0 +1,18 @@
+platform :ios, '9.0'
+
+#use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://git.yy.com/opensource/ios_team/Spec.git'
+source 'https://git.yy.com/ci_team/Specs.git'
+source 'https://git.yy.com/midwares/modular/athservicespecs-ios.git'
+
+target 'TVProjectionDemo2' do
+
+pod 'AFNetworking-YY', '3.2.0'
+#pod 'LookinServer'
+#pod 'DZNEmptyDataSet'
+#pod 'CocoaAsyncSocket'
+#pod 'testflight', '1.1.6'
+#pod 'BaseApiSDK', '7.29.0-dev.2'
+
+end
