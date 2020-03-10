@@ -9,8 +9,8 @@ source 'https://git.yy.com/midwares/modular/athservicespecs-ios.git'
 target 'TVProjectionDemo2' do
 
 pod 'AFNetworking-YY', '3.2.0'
-#pod 'LookinServer'
-#pod 'DZNEmptyDataSet'
+pod 'LookinServer'
+#pod 'DZNEmptyDataSets
 #pod 'CocoaAsyncSocket'
 #pod 'testflight', '1.1.6'
 #pod 'BaseApiSDK', '7.29.0-dev.2'

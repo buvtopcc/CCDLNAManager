@@ -1,0 +1,35 @@
+PODS:
+  - AFNetworking-YY (3.2.0):
+    - AFNetworking-YY/NSURLSession (= 3.2.0)
+    - AFNetworking-YY/Reachability (= 3.2.0)
+    - AFNetworking-YY/Security (= 3.2.0)
+    - AFNetworking-YY/Serialization (= 3.2.0)
+    - AFNetworking-YY/UIKit (= 3.2.0)
+  - AFNetworking-YY/NSURLSession (3.2.0):
+    - AFNetworking-YY/Reachability
+    - AFNetworking-YY/Security
+    - AFNetworking-YY/Serialization
+  - AFNetworking-YY/Reachability (3.2.0)
+  - AFNetworking-YY/Security (3.2.0)
+  - AFNetworking-YY/Serialization (3.2.0)
+  - AFNetworking-YY/UIKit (3.2.0):
+    - AFNetworking-YY/NSURLSession
+  - LookinServer (1.0.0)
+
+DEPENDENCIES:
+  - AFNetworking-YY (= 3.2.0)
+  - LookinServer
+
+SPEC REPOS:
+  https://git.yy.com/opensource/ios_team/Spec:
+    - AFNetworking-YY
+  https://github.com/cocoapods/specs.git:
+    - LookinServer
+
+SPEC CHECKSUMS:
+  AFNetworking-YY: 4702263412db0e14659584698c72354339b86499
+  LookinServer: 0002891cd3cec5e082a910e897dfe71b4f06b89e
+
+PODFILE CHECKSUM: 9462d2f2e595d2c714817e92f86596c9836ac0a5
+
+COCOAPODS: 1.6.1
