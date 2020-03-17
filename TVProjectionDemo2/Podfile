@@ -2,25 +2,14 @@ platform :ios, '9.0'
 
 #use_frameworks!
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://git.yy.com/opensource/ios_team/Spec.git'
-source 'https://git.yy.com/ci_team/Specs.git'
-source 'https://git.yy.com/midwares/modular/athservicespecs-ios.git'
-
 workspace 'TVProjectionDemo2'
 target 'TVProjectionDemo2'
 
-#pod 'AFNetworking-YY', '3.2.0'
 pod 'AFNetworking'
-#pod 'JSBridge'
-#pod 'LookinServer'
+pod 'LookinServer'
 pod 'DZNEmptyDataSet'
 pod 'CocoaAsyncSocket'
-pod 'YYWebCache'
 pod 'IGListKit'
-#pod 'testflight', '1.1.6'
-#pod 'BaseApiSDK', '7.29.0-dev.2'
-#pod 'yylivekit', '7.27.0'
-#pod 'udbauthsdk', '3.1.31' #'3.1.32-dev.1'
 
 
 pre_install do |installer|

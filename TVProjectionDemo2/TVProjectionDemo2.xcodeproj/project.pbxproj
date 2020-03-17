@@ -211,6 +211,7 @@
 				7A602964240CEDD600C7237A /* Sources */,
 				7A602965240CEDD600C7237A /* Frameworks */,
 				7A602966240CEDD600C7237A /* Resources */,
+				B0C012F9A856B4F779EDABE7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,6 +269,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		B0C012F9A856B4F779EDABE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TVProjectionDemo2/Pods-TVProjectionDemo2-frameworks.sh",
+				"${PODS_ROOT}/LookinServer/LookinServer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LookinServer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TVProjectionDemo2/Pods-TVProjectionDemo2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FDA5D2210C3F961B980DF297 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

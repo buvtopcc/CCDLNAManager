@@ -19,24 +19,23 @@ PODS:
   - IGListDiffKit (4.0.0)
   - IGListKit (4.0.0):
     - IGListDiffKit (= 4.0.0)
-  - YYWebCache (1.1.0)
+  - LookinServer (1.0.0)
 
 DEPENDENCIES:
   - AFNetworking
   - CocoaAsyncSocket
   - DZNEmptyDataSet
   - IGListKit
-  - YYWebCache
+  - LookinServer
 
 SPEC REPOS:
-  https://git.yy.com/ci_team/Specs.git:
-    - YYWebCache
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - CocoaAsyncSocket
     - DZNEmptyDataSet
     - IGListDiffKit
     - IGListKit
+    - LookinServer
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
@@ -44,8 +43,8 @@ SPEC CHECKSUMS:
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
   IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
-  YYWebCache: c02a376b18b4ac0386d5b409d5621689636c9ebb
+  LookinServer: 0002891cd3cec5e082a910e897dfe71b4f06b89e
 
-PODFILE CHECKSUM: 4548bc103db454a2887f696d48d9ea2afa039e63
+PODFILE CHECKSUM: 9ffe9187707460c2541bf3a6c1cf9513aec608d8
 
 COCOAPODS: 1.6.1
