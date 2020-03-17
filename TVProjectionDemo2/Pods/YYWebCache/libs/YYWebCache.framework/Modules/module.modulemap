@@ -1,0 +1,6 @@
+framework module YYWebCache {
+  umbrella header "YYWebCache.h"
+
+  export *
+  module * { export * }
+}

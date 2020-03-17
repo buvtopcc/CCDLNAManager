@@ -1,35 +1,51 @@
 PODS:
-  - AFNetworking-YY (3.2.0):
-    - AFNetworking-YY/NSURLSession (= 3.2.0)
-    - AFNetworking-YY/Reachability (= 3.2.0)
-    - AFNetworking-YY/Security (= 3.2.0)
-    - AFNetworking-YY/Serialization (= 3.2.0)
-    - AFNetworking-YY/UIKit (= 3.2.0)
-  - AFNetworking-YY/NSURLSession (3.2.0):
-    - AFNetworking-YY/Reachability
-    - AFNetworking-YY/Security
-    - AFNetworking-YY/Serialization
-  - AFNetworking-YY/Reachability (3.2.0)
-  - AFNetworking-YY/Security (3.2.0)
-  - AFNetworking-YY/Serialization (3.2.0)
-  - AFNetworking-YY/UIKit (3.2.0):
-    - AFNetworking-YY/NSURLSession
-  - LookinServer (1.0.0)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.6.4)
+  - DZNEmptyDataSet (1.8.1)
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
+  - YYWebCache (1.1.0)
 
 DEPENDENCIES:
-  - AFNetworking-YY (= 3.2.0)
-  - LookinServer
+  - AFNetworking
+  - CocoaAsyncSocket
+  - DZNEmptyDataSet
+  - IGListKit
+  - YYWebCache
 
 SPEC REPOS:
-  https://git.yy.com/opensource/ios_team/Spec:
-    - AFNetworking-YY
+  https://git.yy.com/ci_team/Specs.git:
+    - YYWebCache
   https://github.com/cocoapods/specs.git:
-    - LookinServer
+    - AFNetworking
+    - CocoaAsyncSocket
+    - DZNEmptyDataSet
+    - IGListDiffKit
+    - IGListKit
 
 SPEC CHECKSUMS:
-  AFNetworking-YY: 4702263412db0e14659584698c72354339b86499
-  LookinServer: 0002891cd3cec5e082a910e897dfe71b4f06b89e
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
+  YYWebCache: c02a376b18b4ac0386d5b409d5621689636c9ebb
 
-PODFILE CHECKSUM: 9462d2f2e595d2c714817e92f86596c9836ac0a5
+PODFILE CHECKSUM: 4548bc103db454a2887f696d48d9ea2afa039e63
 
 COCOAPODS: 1.6.1

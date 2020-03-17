@@ -14,9 +14,11 @@
 
 @implementation AppDelegate
 
-
+// pcctest1
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // Override point for customization after application launch
+    NSLog(@"%@", @"pcctest2");
+//    NSLog(@"%@", @"pcctest3");
     return YES;
 }
 

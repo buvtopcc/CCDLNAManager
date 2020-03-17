@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		277766D4E296B3D05D5F8B6F /* libPods-TVProjectionDemo2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CF28B1A5EDE394400AD915 /* libPods-TVProjectionDemo2.a */; };
+		3B7447EDB933AFC99AA2572A /* libPods-TVProjectionDemo2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BCF55920E7E7969B9E8DD5 /* libPods-TVProjectionDemo2.a */; };
 		7A60296D240CEDD600C7237A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A60296C240CEDD600C7237A /* AppDelegate.m */; };
 		7A602970240CEDD600C7237A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A60296F240CEDD600C7237A /* SceneDelegate.m */; };
 		7A602973240CEDD600C7237A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A602972240CEDD600C7237A /* ViewController.m */; };
@@ -32,7 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2F87F45750ADB65DED1D0FA3 /* Pods-TVProjectionDemo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVProjectionDemo2.release.xcconfig"; path = "Target Support Files/Pods-TVProjectionDemo2/Pods-TVProjectionDemo2.release.xcconfig"; sourceTree = "<group>"; };
+		08BCF55920E7E7969B9E8DD5 /* libPods-TVProjectionDemo2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TVProjectionDemo2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D4C9FAFF313A61203E1ECA /* Pods-TVProjectionDemo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVProjectionDemo2.release.xcconfig"; path = "Target Support Files/Pods-TVProjectionDemo2/Pods-TVProjectionDemo2.release.xcconfig"; sourceTree = "<group>"; };
 		7A602968240CEDD600C7237A /* TVProjectionDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVProjectionDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A60296B240CEDD600C7237A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A60296C240CEDD600C7237A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -71,8 +72,7 @@
 		7A6029AE240CF05B00C7237A /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
 		7A6029B0240CF4F400C7237A /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		7A6029B2240CF50500C7237A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B5CF28B1A5EDE394400AD915 /* libPods-TVProjectionDemo2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TVProjectionDemo2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3ECA98FA46FEF54953F2CD9 /* Pods-TVProjectionDemo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVProjectionDemo2.debug.xcconfig"; path = "Target Support Files/Pods-TVProjectionDemo2/Pods-TVProjectionDemo2.debug.xcconfig"; sourceTree = "<group>"; };
+		CF4FCD562079AD917ED26166 /* Pods-TVProjectionDemo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVProjectionDemo2.debug.xcconfig"; path = "Target Support Files/Pods-TVProjectionDemo2/Pods-TVProjectionDemo2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 			files = (
 				7A6029B3240CF50500C7237A /* CoreGraphics.framework in Frameworks */,
 				7A6029B1240CF4F400C7237A /* libxml2.tbd in Frameworks */,
-				277766D4E296B3D05D5F8B6F /* libPods-TVProjectionDemo2.a in Frameworks */,
+				3B7447EDB933AFC99AA2572A /* libPods-TVProjectionDemo2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,8 +92,8 @@
 		0F04B604827A29BFAD783478 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C3ECA98FA46FEF54953F2CD9 /* Pods-TVProjectionDemo2.debug.xcconfig */,
-				2F87F45750ADB65DED1D0FA3 /* Pods-TVProjectionDemo2.release.xcconfig */,
+				CF4FCD562079AD917ED26166 /* Pods-TVProjectionDemo2.debug.xcconfig */,
+				19D4C9FAFF313A61203E1ECA /* Pods-TVProjectionDemo2.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -195,7 +195,7 @@
 			children = (
 				7A6029B2240CF50500C7237A /* CoreGraphics.framework */,
 				7A6029B0240CF4F400C7237A /* libxml2.tbd */,
-				B5CF28B1A5EDE394400AD915 /* libPods-TVProjectionDemo2.a */,
+				08BCF55920E7E7969B9E8DD5 /* libPods-TVProjectionDemo2.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,11 +207,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A602981240CEDD800C7237A /* Build configuration list for PBXNativeTarget "TVProjectionDemo2" */;
 			buildPhases = (
-				DC7D0B7D9F662FFD69713A62 /* [CP] Check Pods Manifest.lock */,
+				FDA5D2210C3F961B980DF297 /* [CP] Check Pods Manifest.lock */,
 				7A602964240CEDD600C7237A /* Sources */,
 				7A602965240CEDD600C7237A /* Frameworks */,
 				7A602966240CEDD600C7237A /* Resources */,
-				B5A2E570970712C8EA4FEF0B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -269,29 +268,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B5A2E570970712C8EA4FEF0B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TVProjectionDemo2/Pods-TVProjectionDemo2-frameworks.sh",
-				"${PODS_ROOT}/LookinServer/LookinServer.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LookinServer.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TVProjectionDemo2/Pods-TVProjectionDemo2-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DC7D0B7D9F662FFD69713A62 /* [CP] Check Pods Manifest.lock */ = {
+		FDA5D2210C3F961B980DF297 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -472,7 +449,7 @@
 		};
 		7A602982240CEDD800C7237A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3ECA98FA46FEF54953F2CD9 /* Pods-TVProjectionDemo2.debug.xcconfig */;
+			baseConfigurationReference = CF4FCD562079AD917ED26166 /* Pods-TVProjectionDemo2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -496,10 +473,6 @@
 					"-l\"DZNEmptyDataSet\"",
 					"-framework",
 					"\"CoreGraphics\"",
-					"-framework",
-					"\"LookinServer\"",
-					"-framework",
-					"\"MobileCoreServices\"",
 					"-framework",
 					"\"Security\"",
 					"-framework",
@@ -516,7 +489,7 @@
 		};
 		7A602983240CEDD800C7237A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F87F45750ADB65DED1D0FA3 /* Pods-TVProjectionDemo2.release.xcconfig */;
+			baseConfigurationReference = 19D4C9FAFF313A61203E1ECA /* Pods-TVProjectionDemo2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,10 +513,6 @@
 					"-l\"DZNEmptyDataSet\"",
 					"-framework",
 					"\"CoreGraphics\"",
-					"-framework",
-					"\"LookinServer\"",
-					"-framework",
-					"\"MobileCoreServices\"",
 					"-framework",
 					"\"Security\"",
 					"-framework",
